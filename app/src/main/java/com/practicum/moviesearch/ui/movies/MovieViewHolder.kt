@@ -1,4 +1,4 @@
-package com.practicum.moviesearch
+package com.practicum.moviesearch.ui.movies
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -6,6 +6,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView.*
 import com.bumptech.glide.Glide
+import com.practicum.moviesearch.R
+import com.practicum.moviesearch.domain.models.Movie
 
 class MovieViewHolder(parent: ViewGroup) :
     ViewHolder(LayoutInflater.from(parent.context)

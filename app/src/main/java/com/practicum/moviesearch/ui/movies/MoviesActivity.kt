@@ -1,4 +1,4 @@
-package com.practicum.moviesearch
+package com.practicum.moviesearch.ui.movies
 
 import android.app.Activity
 import android.content.Intent
@@ -11,6 +11,11 @@ import android.view.View
 import android.widget.*
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.practicum.moviesearch.*
+import com.practicum.moviesearch.data.dto.MoviesSearchResponse
+import com.practicum.moviesearch.data.network.IMDbApiService
+import com.practicum.moviesearch.domain.models.Movie
+import com.practicum.moviesearch.ui.poster.PosterActivity
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

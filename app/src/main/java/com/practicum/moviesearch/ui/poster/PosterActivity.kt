@@ -1,9 +1,10 @@
-package com.practicum.moviesearch
+package com.practicum.moviesearch.ui.poster
 
 import android.app.Activity
 import android.os.Bundle
 import android.widget.ImageView
 import com.bumptech.glide.Glide
+import com.practicum.moviesearch.R
 
 class PosterActivity : Activity() {
 

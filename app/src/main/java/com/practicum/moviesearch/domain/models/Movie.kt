@@ -1,4 +1,4 @@
-package com.practicum.moviesearch
+package com.practicum.moviesearch.domain.models
 
 data class Movie(val id: String,
                  val resultType: String,
