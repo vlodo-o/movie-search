@@ -7,6 +7,7 @@ import android.os.Handler
 import android.os.Looper
 import com.practicum.moviesearch.*
 import com.practicum.moviesearch.ui.poster.PosterActivity
+import com.practicum.moviesearch.util.Creator
 
 class MoviesActivity : Activity() {
 
