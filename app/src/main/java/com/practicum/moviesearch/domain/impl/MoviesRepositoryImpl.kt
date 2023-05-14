@@ -1,5 +1,6 @@
-package com.practicum.moviesearch.data
+package com.practicum.moviesearch.domain.impl
 
+import com.practicum.moviesearch.data.NetworkClient
 import com.practicum.moviesearch.data.dto.MoviesSearchRequest
 import com.practicum.moviesearch.data.dto.MoviesSearchResponse
 import com.practicum.moviesearch.domain.api.MoviesRepository
