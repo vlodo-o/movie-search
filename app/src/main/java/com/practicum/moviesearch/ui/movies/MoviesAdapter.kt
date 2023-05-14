@@ -1,7 +1,8 @@
-package com.practicum.moviesearch
+package com.practicum.moviesearch.ui.movies
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.practicum.moviesearch.domain.models.Movie
 
 class MoviesAdapter(private val clickListener: MovieClickListener) : RecyclerView.Adapter<MovieViewHolder>() {
 
